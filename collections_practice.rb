@@ -30,3 +30,14 @@ def kesha_maker(array)
     i[2] = "$"
   end
 end
+
+def find_a(array)
+  array.find_all do |i|
+    i[0] == "a"
+  end
+end
+
+
+
+
+
